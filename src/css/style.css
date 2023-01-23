@@ -1,3 +1,16 @@
 
-p { background-color: #8ABB55; }
-mytext {background-color: #8ABB55;}
+p {
+     background-color: #8ABB55; 
+}
+a {
+    background-color: #eb1f00;
+}
+article{
+    background-color: #0008eb;
+}
+footer {
+    background-color: #0ceb00;
+}
+h6 {
+    background-color: aqua;
+}
