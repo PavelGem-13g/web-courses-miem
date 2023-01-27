@@ -20,7 +20,7 @@ video {
 audio{
     width: 100%;
 }
-article {
+article, div {
     background-color: white;
     color: black;
     margin-top: 10px;
@@ -55,7 +55,4 @@ ul{
 }
 footer{
     text-align: center;
-}
-footer:hover{
-    font-size: 20pt;
 }
