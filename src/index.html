@@ -1,124 +1,198 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" href="css/style.css">-->
-        <link rel="icon" href="ico/66d9d2d54bebdc4e16942412c97b622c.png">
 
-        <meta charset-"utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale-1.0">  
-        <meta name= "keywords" content="студент, htmi, miem">             
-        <meta name="description" content="first page">           
-        <meta name="author" content="Pashentsev Pavel")>           
-        <meta property="og:image" content="https://github.com/PavelGem-13g/web-courses-miem/blob/main/59193313.jpeg">            
-        <meta property="og:title" content= "О своем опыте обучении">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="icon" href="ico/66d9d2d54bebdc4e16942412c97b622c.png">
 
-        <title>
-            Я студент НИУ ВШЭ!
-        </title>
-    </head>
+    <meta charset-"utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="keywords" content="студент, html, miem">
+    <meta name="description" content="first page">
+    <meta name="author" content="Pashentsev Pavel" )>
+    <meta property="og:image" content="https://github.com/PavelGem-13g/web-courses-miem/blob/main/59193313.jpeg">
+    <meta property="og:title" content="О своем опыте обучении">
 
-    <body>
-        <header>
-            <h1>
-                Я студент НИУ ВШЭ!
-            </h1>
-        </header>
+    <title>
+        Я студент НИУ ВШЭ!
+    </title>
+</head>
 
-        <nav>
+<body>
+    <header>
+        <h1>
+            Я студент <kbd>НИУ ВШЭ!</kbd>
+        </h1>
+    </header>
+    <nav>
+        <h3>
+            Навигация
+        </h3>
+        <ul>
+            <li><a href="#about_hse"> О ВУЗе</a></li>
+            <li>
+                <a href="#trajectoires"> Траектории</a>
+                <ul>
+                    <li>
+                        <a href="#science">Наука</a>
+                    </li>
+                    <li>
+                        <a href="#сareer">Карьера</a>
+                    </li>
+                    <li>
+                        <a href="#stud_life">Студенческая жизнь</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#exp"> Эксперименты с ChatGPT</a></li>
+            <li><a href="#form"> Свяжитесь с нами!</a></li>
+        </ul>
+
+        <form action="/serverscript" method="get">
+            <input type="search" name="query" placeholder="Поиск по сайту">
+            <input type="submit" name="query" value="Найти">
+        </form>
+    </nav>
+
+    <main>
+        <section name="about_hse">
+            <a name="about_hse"></a>
             <h3>
-                Навигация
+                О вузе
             </h3>
-            <ul>
-                <li><a href="#about_hse"> О ВУЗе</a></li>
-                <li>
-                    <a href="#trajectoires"> Траектории</a>
-                    <ul>
-                        <li>
-                            <a href="#science">Наука</a>
-                        </li>
-                        <li>
-                            <a href="#сareer">Карьера</a>
-                        </li>
-                        <li>
-                            <a href="#stud_life">Студенческая жизнь</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+            <article>
+                <p>
+                    Национальный исследовательский университет <kbd>«Высшая школа экономики» (НИУ ВШЭ; "Вышка")</kbd> —
+                    автономное
+                    учреждение, федеральное государственное высшее учебное заведение. <kbd>ВШЭ</kbd> создана в 1992
+                    году, нынешний
+                    статус носит с 2009 года. Основной кампус находится в Москве, ещё три — в Санкт-Петербурге, Нижнем
+                    Новгороде и Перми.
+                </p>
+            </article>
+            </a>
+        </section>
+        <section name="trajectoires">
+            <a name="trajectoires">
+                <h3>
+                    Траектории
+                </h3>
+                <article>
+                    <a name="science">
+                        <h6>
+                            Наука
+                        </h6>
+                        <video width="320" height="240" controls>
+                            <source src="videos/Nauka.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает воспроизведение видео.
+                        </video>
+                    </a>
+                </article>
 
-        <main>
-            <section name = "about_hse">
-                <a  name = "about_hse"></a>
-                    <h3>
-                        О вузе
-                    </h3>
-                    <article>
+                <article>
+                    <a name="сareer">
+                        <h6>
+                            Карьера
+                        </h6>
+                        <audio controls>
+                            <source src="audio/career.mp4">
+                            Ваш браузер не поддерживает воспроизведение видео.
+                        </audio>
+                    </a>
+                </article>
+
+                <article>
+                    <a name="stud_life">
+                        <h6>
+                            Студенческая жизнь
+                        </h6>
                         <p>
-                            Национальный исследовательский университет «Высшая школа экономики» (НИУ ВШЭ; "Вышка") — автономное учреждение, федеральное государственное высшее учебное заведение. ВШЭ создана в 1992 году, нынешний статус носит с 2009 года. Основной кампус находится в Москве, ещё три — в Санкт-Петербурге, Нижнем Новгороде и Перми.    
+                            Мы в <kbd>Вышке</kbd> верим, что комьюнити – то, что вдохновляет и дает поддержку в нужный
+                            момент.
+                            Факультеты объединяют вокруг
+                            себя не только профессионалов в сфере психологии, журналистики, химии и IT, но и любителей
+                            активной внеучебной жизни.
+                            Именно поэтому у нас существует множество факультетских студенческих активов – там ребята
+                            создают много объединяющих
+                            моментов: выезды, новогодние праздники, дни рождения, настоящие балы с фраками платьями в
+                            пол.
                         </p>
-                    </article>
-                </a>
-            </section>
-            <section name = "trajectoires">
-                <a name = "trajectoires">
+                        <p>
+                            После таких событий тяжело остаться в стороне от сообщества вышкинцев, которых вы встретите
+                            в любом уголке мира и с
+                            которыми можно поделиться не только экспертизой в вашей профессии, но и воспоминаниями о
+                            ярких праздниках, которые, мы
+                            уверены, связывают лучше совместной учебы.
+                        </p>
+                        <p>
+                            Более подробно вы можете прочитать <a href="https://extra.hse.ru/">тут</a>.
+                        </p>
+                    </a>
+                </article>
+            </a>
+        </section>
+        <section>
+            <article>
+                <h3>
+                    Код, сгенерированный ChatGPT
+                </h3>
+                <code>
+                        struct Car {
+                            var weight: Int
+                            var height: Int
+                        
+                            func printCar() {
+                                print("Weight: \(weight)")
+                                print("Height: \(height)")
+                            }
+                        }
+                    </code>
+            </article>
+            <article>
+                <a name="exp">
                     <h3>
-                        Траектории
+                        Текст, сгенерированный ChatGPT
                     </h3>
-                    <article>
-                        <a name = "science">
-                            <h6>
-                                Наука
-                            </h6>
-                            <video width="320" height="240" controls>
-                                <source src = "videos/Nauka.mp4" type="video/mp4">
-                                Ваш браузер не поддерживает воспроизведение видео.
-                            </video>
-                        </a>
-                    </article>
-
-                    <article>
-                        <a name = "сareer">
-                            <h6>
-                                Карьера
-                            </h6>
-                            <audio controls>
-                                <source src = "audio/career.mp4">
-                                Ваш браузер не поддерживает воспроизведение видео.
-                            </audio>
-                        </a>
-                    </article>
-
-                    <article>
-                        <a name = "stud_life">
-                            <h6>
-                                Студенческая жизнь
-                            </h6>
-                            <p>
-                                Мы в Вышке верим, что комьюнити – то, что вдохновляет и дает поддержку в нужный момент. Факультеты объединяют вокруг
-                                себя не только профессионалов в сфере психологии, журналистики, химии и IT, но и любителей активной внеучебной жизни.
-                                Именно поэтому у нас существует множество факультетских студенческих активов – там ребята создают много объединяющих
-                                моментов: выезды, новогодние праздники, дни рождения, настоящие балы с фраками платьями в пол.
-                            </p>
-                            <p>
-                                После таких событий тяжело остаться в стороне от сообщества вышкинцев, которых вы встретите в любом уголке мира и с
-                                которыми можно поделиться не только экспертизой в вашей профессии, но и воспоминаниями о ярких праздниках, которые, мы
-                                уверены, связывают лучше совместной учебы.
-                            </p>
-                            <p>
-                                Более подробно вы можете прочитать <a href="https://extra.hse.ru/">тут</a>.
-                            </p>
-                        </a>
-                    </article>
+                    <ol>
+                        <li>
+                            <kbd>«Высшая школа экономики»</kbd> - это ведущий научно-образовательный центр России,
+                            основанный в 1992
+                            году.
+                        </li>
+                        <li>
+                            <kbd>«Высшая школа экономики»</kbd> - это один из лучших университетов, предлагающий
+                            профессиональные,
+                            научные, культурные, социальные, творческие, религиозные, спортивные и другие программы.
+                        </li>
+                        <li>
+                            <kbd>«Высшая школа экономики»</kbd> - увлекательно-мотиваторско-двуязы��ный (UMD)
+                            университет,
+                            который
+                            одновременно продвигает идеяльму «вмят
+                        </li>
+                    </ol>
                 </a>
-            </section>
-        </main>
-            <section>
-
-            </section>
-        <footer>
+            </article>
+        </section>
+        <section>
+            <a name="form">
+                <aside>
+                    <h2>
+                        Свяжитесь с нами!
+                    </h2>
+                    <ul>
+                        <li><a href="form.html">Ссылка на форму</a></li>
+                    </ul>
+                </aside>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>
             Все права защищены.
-        </footer>
-    </body>
+        </p>
+    </footer>
+</body>
+
 </html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="icon" href="ico/66d9d2d54bebdc4e16942412c97b622c.png">
+
+    <meta charset-"utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="keywords" content="форма, htmi, miem">
+    <meta name="description" content="first page">
+    <meta name="author" content="Pashentsev Pavel" )>
+    <meta property="og:image" content="https://github.com/PavelGem-13g/web-courses-miem/blob/main/59193313.jpeg">
+    <meta property="og:title" content="О своем опыте обучении">
+
+    <title>
+        Форма
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Форма
+        </h1>
+    </header>
+
+    <nav>
+        <h3>
+            Навигация
+        </h3>
+        <ul>
+            <li><a href="index.html#about_hse"> О ВУЗе</a></li>
+            <li>
+                <a href="index.html#trajectoires"> Траектории</a>
+                <ul>
+                    <li>
+                        <a href="index.html#science">Наука</a>
+                    </li>
+                    <li>
+                        <a href="index.html#сareer">Карьера</a>
+                    </li>
+                    <li>
+                        <a href="index.html#stud_life">Студенческая жизнь</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="index.html#exp"> Эксперименты с ChatGPT</a></li>
+            <li><a href="index.html#form"> Свяжитесь с нами!</a></li>
+        </ul>
+
+        <form action="/serverscript" method="get">
+            <input type="search" name="query" placeholder="Поиск по сайту">
+            <input type="submit" name="query" value="Найти">
+        </form>
+    </nav>
+
+    <main>
+        <form action="/serverscript" method="post">
+            <h3>
+                Форма
+            </h3>
+
+            <h5>
+                Основная информация
+            </h5>
+            <input type="text" name="name" placeholder="Имя"><br>
+            <input type="email" placeholder="Почта"><br>
+            <section>
+                День рождения<br>
+                <input type="date" name="birthday">
+            </section>
+            <section>
+                Ваша фотография<br>
+                <input type="file" name="photo">
+            </section>
+
+            <section>
+                <h5>
+                    Укажите ваш любимый цвет
+                </h5>
+                <input type="color" id="clr"><br>
+            </section>
+
+            <section>
+                <h5>
+                    Укажите, что вас заинтересовало
+                </h5>
+
+                <input name="option" id="optA" type="radio" value="1">
+                <label for="optA">Наука</label>
+                <br>
+
+                <input name="option" id="optB" type="radio" value="2">
+                <label for="optB">Карьера</label>
+                <br>
+
+                <input name="option" id="optC" type="radio" value="3">
+                <label for="optC">Студенческая жизнь</label>
+                <br>
+            </section>
+
+            <section>
+                <h5>
+                    Укажите, уровень заинтересованности
+                </h5>
+                <input type="range"><br>
+            </section>
+
+            <section>
+                <h5>
+                    Расскажите о себе
+                </h5>
+                <textarea></textarea><br>
+            </section>
+
+            <section>
+                <h5>
+                    Выберите один из вариантов
+                </h5>
+                <select name="slct">
+                    <optgroup>
+                        <option hidden></option>
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                        <option value="bird">Bird</option>
+                    </optgroup>
+                </select>
+            </section>
+
+            <section>
+                <input type="reset"><br>
+                <label for="chkAccepted">Вы даете согласие?</label>
+                <input type="checkbox" name="chkAccepted"><br>
+                <input type="submit"><br>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            Все права защищены.
+        </p>
+    </footer>
+</body>
+
+</html>
