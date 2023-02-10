@@ -2,15 +2,18 @@
     color: white;
     background-color: red;
 }
+
 kbd {
     background-color: aliceblue;
     color: black;
 }
+
 kbd:hover{
     background-color: blueviolet;
     color: aliceblue;
     transition: 200ms;
 }
+
 video {
     background-color: white;
     width: 100%;
@@ -92,7 +95,6 @@ footer {
     color: royalblue;
 }
 
-
 @media (max-width: 700px){
     .multi_blcok{
         width: 95%;
@@ -107,4 +109,13 @@ footer {
 #about{
     position: relative;
     left: 50px;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+h1{
+    font-family: MyFont;
 }
