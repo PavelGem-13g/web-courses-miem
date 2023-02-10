@@ -103,13 +103,21 @@ footer {
 
 #chat{
     position: relative;
-    right: 50px;
+    width: 90%;
+    right: 10px;
     background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#chat article{
+    flex: 2 1;
+    margin-right: 10px;
 }
 
 #about{
     position: relative;
-    left: 50px;
+    left: 10px;
     background-color: blueviolet;
 }
 
