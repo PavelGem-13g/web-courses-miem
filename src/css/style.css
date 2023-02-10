@@ -104,11 +104,13 @@ footer {
 #chat{
     position: relative;
     right: 50px;
+    background-color: brown;
 }
 
 #about{
     position: relative;
     left: 50px;
+    background-color: blueviolet;
 }
 
 @font-face {
