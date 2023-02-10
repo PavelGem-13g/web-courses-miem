@@ -25,7 +25,7 @@
             Я студент <kbd>НИУ ВШЭ!</kbd>
         </h1>
     </header>
-    <nav>
+    <nav class="multi_blcok">
         <h3>
             Навигация
         </h3>
@@ -56,33 +56,33 @@
     </nav>
 
     <main>
-        <section name="about_hse">
+        <section name="about_hse" class="multi_blcok" id="about">
             <a name="about_hse"></a>
             <h3>
                 О вузе
             </h3>
-            <article>
+            <article class="block">
                 <p>
-                    Национальный исследовательский университет <kbd>«Высшая школа экономики» (НИУ ВШЭ; "Вышка")</kbd> —
-                    автономное
-                    учреждение, федеральное государственное высшее учебное заведение. <kbd>ВШЭ</kbd> создана в 1992
-                    году, нынешний
-                    статус носит с 2009 года. Основной кампус находится в Москве, ещё три — в Санкт-Петербурге, Нижнем
-                    Новгороде и Перми.
+                    <span class="marked marked-type1">Национальный исследовательский университет</span> <kbd>«Высшая
+                        школа экономики» (НИУ ВШЭ; "Вышка")</kbd> —
+                    автономное учреждение, федеральное государственное высшее учебное заведение. <kbd>ВШЭ</kbd> создана
+                    в 1992 году, нынешний статус носит с 2009 года. Основной кампус находится в <span
+                        class="marked marked-type2">Москве, ещё три — в Санкт-Петербурге, Нижнем Новгороде и
+                        Перми.</span>
                 </p>
             </article>
             </a>
         </section>
-        <section name="trajectoires">
+        <section name="trajectoires" class="multi_blcok">
             <a name="trajectoires">
                 <h3>
                     Траектории
                 </h3>
-                <article>
+                <article class="block">
                     <a name="science">
-                        <h6>
+                        <h5>
                             Наука
-                        </h6>
+                        </р>
                         <video width="320" height="240" controls>
                             <source src="videos/Nauka.mp4" type="video/mp4">
                             Ваш браузер не поддерживает воспроизведение видео.
@@ -90,11 +90,11 @@
                     </a>
                 </article>
 
-                <article>
+                <article class="block">
                     <a name="сareer">
-                        <h6>
+                        <h5>
                             Карьера
-                        </h6>
+                        </h5>
                         <audio controls>
                             <source src="audio/career.mp4">
                             Ваш браузер не поддерживает воспроизведение видео.
@@ -102,11 +102,11 @@
                     </a>
                 </article>
 
-                <article>
+                <article class="block">
                     <a name="stud_life">
-                        <h6>
+                        <h5>
                             Студенческая жизнь
-                        </h6>
+                        </h5>
                         <p>
                             Мы в <kbd>Вышке</kbd> верим, что комьюнити – то, что вдохновляет и дает поддержку в нужный
                             момент.
@@ -132,25 +132,25 @@
                 </article>
             </a>
         </section>
-        <section>
-            <article>
+        <section name = "ChatGPT" class="multi_blcok" id = "chat">
+            <article class="block">
                 <h3>
                     Код, сгенерированный ChatGPT
                 </h3>
-                <code>
-                        struct Car {
-                            var weight: Int
-                            var height: Int
-                        
-                            func printCar() {
-                                print("Weight: \(weight)")
-                                print("Height: \(height)")
-                            }
-                        }
-                    </code>
+                <pre>
+struct Car {
+    var weight: Int
+    var height: Int
+
+    func printCar() {
+        print("Weight: \(weight)")
+        print("Height: \(height)")
+    }
+}
+                </pre>
             </article>
-            <article>
-                <a name = "exp">
+            <article class="block">
+                <a name="exp">
                     <h3>
                         Текст, сгенерированный ChatGPT
                     </h3>
@@ -166,7 +166,8 @@
                             научные, культурные, социальные, творческие, религиозные, спортивные и другие программы.
                         </li>
                         <li>
-                            <kbd>«Высшая школа экономики»</kbd> - увлекательно-мотиваторско-двуязы��ный (UMD) университет,
+                            <kbd>«Высшая школа экономики»</kbd> - увлекательно-мотиваторско-двуязы��ный (UMD)
+                            университет,
                             который
                             одновременно продвигает идеяльму «вмят
                         </li>
@@ -174,8 +175,8 @@
                 </a>
             </article>
         </section>
-        <section>
-            <a name = "form">
+        <section name = "form-multiblock" class="multi_blcok">
+            <a name="form">
                 <aside>
                     <h2>
                         Свяжитесь с нами!
@@ -193,4 +194,5 @@
         </p>
     </footer>
 </body>
+
 </html>
