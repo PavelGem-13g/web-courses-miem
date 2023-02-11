@@ -129,3 +129,5 @@ footer {
 h1{
     font-family: MyFont;
 }
+
+#mapid { height: 500px; }

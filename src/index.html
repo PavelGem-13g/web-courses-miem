@@ -6,8 +6,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="ico/66d9d2d54bebdc4e16942412c97b622c.png">
 
+    <!--Leaflet JS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>ы
+
+
+
     <meta charset-"utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <meta name="keywords" content="студент, html, miem">
     <meta name="description" content="first page">
     <meta name="author" content="Pashentsev Pavel" )>
@@ -25,6 +30,7 @@
             Я студент <kbd>НИУ ВШЭ!</kbd>
         </h1>
     </header>
+
     <nav class="multi_blcok">
         <h3>
             Навигация
@@ -54,7 +60,7 @@
             <input type="submit" name="query" value="Найти">
         </form>
     </nav>
-
+    
     <main>
         <section name="about_hse" class="multi_blcok" id="about">
             <a name="about_hse"></a>
@@ -181,6 +187,20 @@ struct Car {
                 </a>
             </article>
         </section>
+
+        <section class="multi_blcok">
+            <h3>
+                Местонахождение
+            </h3>
+            <a name = "placement">
+                <article class="block">
+
+                    <div id="mapid"></div>
+                    <script src="js/map.js"></script>
+                </article>
+            </a>
+        </section>
+        
         <section name = "form-multiblock" class="multi_blcok">
             <a name="form">
                 <aside>
