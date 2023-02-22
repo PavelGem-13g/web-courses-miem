@@ -131,3 +131,12 @@ h1{
 }
 
 #mapid { height: 500px; }
+
+.chat{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 90%;
+    
+    background-color: blue;
+}
