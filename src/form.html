@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -7,12 +7,13 @@
     <link rel="icon" href="ico/66d9d2d54bebdc4e16942412c97b622c.png">
 
     <meta charset-"utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <meta name="keywords" content="форма, htmi, miem">
     <meta name="description" content="first page">
     <meta name="author" content="Pashentsev Pavel" )>
     <meta property="og:image" content="https://github.com/PavelGem-13g/web-courses-miem/blob/main/59193313.jpeg">
     <meta property="og:title" content="О своем опыте обучении">
+
+    <script src="js/chat.js"></script>
 
     <title>
         Форма
@@ -48,6 +49,7 @@
             </li>
             <li><a href="index.html#exp"> Эксперименты с ChatGPT</a></li>
             <li><a href="index.html#form"> Свяжитесь с нами!</a></li>
+            <li><a href="form.html#chating"> Чат с автором страницы</a></li>
         </ul>
 
         <form action="/serverscript" method="get">
@@ -57,6 +59,23 @@
     </nav>
 
     <main>
+
+        <section class="multi_blcok" id = "chating">
+            <h5>
+                Чат с автором страницы
+            </h5>
+            
+            <div class="block" id="messagebox">
+                
+            </div>
+
+            <div class="block">
+                <input type="text" name="chat" id="textchat" placeholder="Текст сообщения">
+                <input type="submit" name="chat" id="sendbutton" value="Отправить">
+                <input type="submit" name="voice" value="Записать сообщение">
+            </div>
+        </section>
+
         <form action="/serverscript" method="post">
             <section class="multi_blcok">
                 <h3>

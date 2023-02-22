@@ -140,3 +140,6 @@ h1{
     
     background-color: blue;
 }
+input{
+    border-radius: 2px;
+}
