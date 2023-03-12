@@ -15,9 +15,9 @@ app.get("/", function(request, response){
 app.post("/serverscript", function(request, response){
     console.log(0, request.body)
     database.createUser(request.body)
-    // database.getId(request.body).then(function(id){
-    //     response.redirect("/get/+id")
-    // })
+    database.getId(request.body).then(function(id){
+        response.redirect("/get/"+id)
+    })
 });
 
 app.get("/get/:id", function(request, response){
